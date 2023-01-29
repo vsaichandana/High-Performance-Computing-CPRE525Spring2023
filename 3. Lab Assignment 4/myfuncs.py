@@ -3,7 +3,11 @@ Author: Saichandana V
 Purpose: Lab Assignment 2 & Lab Assignment 4
 Created: 01/19/2023
 Updated: 01/26/2023
-This python script includes the two functions (a) exponential algorithm using taylor series with e=2.7182818284590451, and (b) natural logarithm function using Newtons method  and the exponential function generated in the (a).
+This python script includes the two functions 
+	(1) my_sqrt
+	(2) my_factorial
+	(3) my_exp - exponential algorithm using taylor series with e=2.7182818284590451, 
+	(4) my_ln - natural logarithm function using Newtons method and the exponential function generated in the (a).
 """
 import math
 

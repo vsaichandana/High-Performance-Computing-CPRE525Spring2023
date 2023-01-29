@@ -1,8 +1,13 @@
+import sys
+
 import numpy as np
 import myfuncs as mf
 import math
 
-x = 2
+# x = 2
+# Provide x as in input argument
+x= int(sys.argv[1])
+
 print('==============================================')
 print("Input number: ", x)
 
