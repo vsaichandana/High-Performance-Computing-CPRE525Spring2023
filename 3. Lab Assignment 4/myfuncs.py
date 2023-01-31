@@ -16,8 +16,9 @@ iterations = 20
 
 
 # Prepared my_sqrt for Lab Assignment 4 @ 01/26/2023
-def my_sqrt(x: float) -> float:
+def my_sqrt(x: float, tolerance=1e-12) -> float:
     '''
+    :param tolerance: tolerance value
     :param x: float
     :return: it compute square root of the floating number using Newton's method
     This function takes a non-negative float number as input and returns the square root of it. It raises a ValueError if the input is a negative number.
@@ -27,8 +28,8 @@ def my_sqrt(x: float) -> float:
     elif x == 0:
         return 0
     else:
-        approx = x
-        while abs(approx*approx - x) > 1e-12:
+        approx = x # approx is an initial guess, and considered is equal to input value, x.
+        while abs(approx*approx - x) > tolerance:
             approx = (approx + x/approx) / 2
         return approx
 
