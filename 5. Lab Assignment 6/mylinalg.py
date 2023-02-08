@@ -1,3 +1,11 @@
+"""
+Author: Saichandana V
+Purpose: Lab Assignment 6 [CPRE 525]
+Created: 02/02/2023
+This python script for Polynomial function using Gaussian elimination
+Copyright @ Iowa State University
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 # from gauss_elimination_cpre525 import gauss_elimination
