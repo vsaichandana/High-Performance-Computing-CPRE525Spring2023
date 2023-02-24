@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+
 int GetKey() {
     char mycharacter;
     printf("\nEnter a character: ");

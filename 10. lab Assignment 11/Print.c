@@ -27,7 +27,7 @@ void Print(const int forward, const node* head)
 
 void PrintLine(const int pos,const int val,
 	       const node* head,const node* next)
-{ printf(" |%3i |%c|%15p |%15p |\n",pos,(char)val,head,next); }
+{ printf(" |%3i |%c|%15p |%15p |\n",pos,val,head,next); }
 
 void PrintList(const node* head)
 {
