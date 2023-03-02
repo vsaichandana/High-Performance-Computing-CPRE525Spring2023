@@ -9,7 +9,6 @@ void Pop(node** top,int* output, inputDatabase** outputDatabase)
    { return; }
    else
    { temp = temp->next; }
-   //*output = (*top)->value;
    *output = (*top)->id;
    *outputDatabase = (*top)->inputData;
    free(*top);

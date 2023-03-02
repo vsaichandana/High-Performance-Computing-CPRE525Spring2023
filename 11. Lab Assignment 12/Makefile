@@ -1,4 +1,3 @@
-# $ISUHPC/lectures/lecture12/codes/stack/Makefile
 CC = gcc
 FFLAGS = -O3 -Wall
 LFLAGS =

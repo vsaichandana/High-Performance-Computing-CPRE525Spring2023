@@ -8,7 +8,6 @@ void Push(const int input, inputDatabase *inputData, node** top)
    {
       *top =(node*)malloc(sizeof(struct node));
       (*top)->next = NULL;
-      //(*top)->value = input;
       (*top)->id = input;
       (*top)->inputData = inputData;
       (*top)->position = 1;
@@ -18,7 +17,6 @@ void Push(const int input, inputDatabase *inputData, node** top)
       node* temp;
       temp =(node*)malloc(sizeof(struct node));
       temp->next = *top;
-      //temp->value = input;
       temp->id = input;
       temp->inputData = inputData;
       temp->position = 1;
