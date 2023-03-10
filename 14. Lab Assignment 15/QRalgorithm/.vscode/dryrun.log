@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/ubuntu/Documents/chandanaWorkspace/CPRE 525 Spring 2023/ISU-HPC/ISU-HPC/lectures/lecture15/codes/QRalgorithm'
+make: 'main.exe' is up to date.
+make: Leaving directory '/home/ubuntu/Documents/chandanaWorkspace/CPRE 525 Spring 2023/ISU-HPC/ISU-HPC/lectures/lecture15/codes/QRalgorithm'
+ 
